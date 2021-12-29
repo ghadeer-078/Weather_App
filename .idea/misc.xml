@@ -8,10 +8,15 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/WeatherApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/WeatherApp/app/src/main/res/drawable/refresh.xml" value="0.18796296296296297" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/HUAWEI/StudioProjects/Weather_App/app/src/main/res/drawable/background.xml" value="0.24375" />
+        <entry key="..\:/Users/HUAWEI/StudioProjects/Weather_App/app/src/main/res/drawable/refresh.xml" value="0.24375" />
+        <entry key="..\:/Users/HUAWEI/StudioProjects/Weather_App/app/src/main/res/layout/activity_main.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/HUAWEI/StudioProjects/Weather_App/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/HUAWEI/StudioProjects/Weather_App/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.31666666666666665" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

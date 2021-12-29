@@ -45,6 +45,8 @@ class MainActivity : AppCompatActivity() {
 
         initializeVars()
 
+
+
         getButton.setOnClickListener {
             try {
                 if (edZipCode.text.isEmpty())
@@ -76,6 +78,7 @@ class MainActivity : AppCompatActivity() {
         llRefresh.setOnClickListener {
             refresh()
         }
+
     }
 
     private fun initializeVars() {
@@ -97,7 +100,6 @@ class MainActivity : AppCompatActivity() {
         llRefresh = findViewById(R.id.llRefresh)
         apiInterface = APIClient().getClient()?.create(APIInterface::class.java)
     }
-
 
     private fun getWeatherByZIP(zip: String = "10001,us") {
         hideUserShowMain()
@@ -152,10 +154,10 @@ class MainActivity : AppCompatActivity() {
         return SimpleDateFormat("hh:mm a").format(Date(dt!!.times(1000)))
     }
 
+
     private fun simpleDateTime(dt: Long?): String? {
         return SimpleDateFormat("dd/MM/yyyy hh:mm a").format(Date(dt!!.times(1000)))
     }
-
 
     private fun refresh() {
         getWeatherByZIP(code)
